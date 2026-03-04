@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TKT-001",
+    "title": "Login page not loading",
+    "description": "Users are unable to access the login page on Chrome browser after the recent update.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": "TKT-002",
+    "title": "Payment gateway timeout",
+    "description": "Transactions are failing due to payment gateway timeout errors during checkout.",
+    "customer": "Bob Smith",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2025-01-16"
+  },
+  {
+    "id": "TKT-003",
+    "title": "Email notifications not sent",
+    "description": "Users are not receiving email confirmations after completing sign-up.",
+    "customer": "Carol White",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-01-17"
+  },
+  {
+    "id": "TKT-004",
+    "title": "Dashboard charts broken",
+    "description": "The analytics dashboard is displaying blank charts after the latest deployment.",
+    "customer": "David Lee",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-18"
+  },
+  {
+    "id": "TKT-005",
+    "title": "Profile picture upload fails",
+    "description": "Users receive a 500 internal server error when attempting to upload a profile photo.",
+    "customer": "Eva Green",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-01-19"
+  },
+  {
+    "id": "TKT-006",
+    "title": "Search results incorrect",
+    "description": "The search feature is returning completely unrelated results for specific keyword queries.",
+    "customer": "Frank Brown",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-01-20"
+  },
+  {
+    "id": "TKT-007",
+    "title": "App crashes on iOS 17",
+    "description": "The mobile application crashes immediately on launch for all iOS 17 users.",
+    "customer": "Grace Kim",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2025-01-21"
+  },
+  {
+    "id": "TKT-008",
+    "title": "Invoice download broken",
+    "description": "Clicking the download invoice button does nothing on Firefox and Safari browsers.",
+    "customer": "Henry Davis",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-01-22"
+  },
+  {
+    "id": "TKT-009",
+    "title": "Two-factor auth not working",
+    "description": "OTP codes sent via SMS are not being accepted during the 2FA login flow.",
+    "customer": "Iris Wong",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2025-01-23"
+  },
+  {
+    "id": "TKT-010",
+    "title": "Export to CSV fails",
+    "description": "The export button throws a JavaScript error when the dataset exceeds 1000 rows.",
+    "customer": "Jack Turner",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-24"
+  },
+  {
+    "id": "TKT-011",
+    "title": "Slow loading on mobile",
+    "description": "Pages take over 10 seconds to load on mobile data connections in Southeast Asia.",
+    "customer": "Karen Hall",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-01-25"
+  },
+  {
+    "id": "TKT-012",
+    "title": "Wrong currency displayed",
+    "description": "Prices are showing in USD instead of the user's local currency set in their profile.",
+    "customer": "Leo Martin",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-01-26"
+  },
+  {
+    "id": "TKT-013",
+    "title": "Notifications badge missing",
+    "description": "The notification bell icon no longer shows the unread count badge on the navbar.",
+    "customer": "Mia Scott",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-01-27"
+  },
+  {
+    "id": "TKT-014",
+    "title": "Account deletion not working",
+    "description": "Submitting the account deletion request form results in a blank white page with no feedback.",
+    "customer": "Nathan Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-28"
+  },
+  {
+    "id": "TKT-015",
+    "title": "Dark mode flickering",
+    "description": "Switching between light and dark mode causes the entire UI to flicker repeatedly for 2-3 seconds.",
+    "customer": "Olivia Adams",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-01-29"
+  }
+]
