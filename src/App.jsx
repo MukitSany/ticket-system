@@ -3,6 +3,8 @@ import './App.css'
 import Navber from './navber'
 import Banner from './banner'
 import Tickets from './customer-tickets'
+import Footer from './footer'
+import Footerbar from './footerbar'
 import { Suspense } from 'react'
 
 const fetchTickets = async () => {
@@ -19,6 +21,9 @@ function App() {
       <Suspense fallback={<progress className="progress w-56"></progress>}>
         <Tickets ticketPromise={ticketPromise}></Tickets>
       </Suspense>
+      <Footer></Footer>
+      <Footerbar></Footerbar>
+      
     </>
   )
 }
