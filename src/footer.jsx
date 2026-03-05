@@ -10,11 +10,11 @@ export default function Footer () {
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 mt-9">
   <aside>
     
-    <p className="w-80">
-      <h1 className="font-extrabold text-3xl">CS — Ticket System</h1>
+    <h1 className="w-80">
+      <p className="font-extrabold text-3xl">CS — Ticket System</p>
       <br />
       Our platform is designed to provide reliable, secure, and efficient services for all users. We focus on delivering quality solutions, improving user experience, and supporting businesses with modern technology. Thank you for trusting us and being part of our growing community.
-    </p>
+    </h1>
   </aside>
   <nav>
     <h6 className="footer-title">Company</h6>

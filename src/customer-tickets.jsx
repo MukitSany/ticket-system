@@ -6,7 +6,8 @@ import { use } from "react"
 export default function Tickets({ticketPromise}) {
 
     const ticketInfprmation = use(ticketPromise)
-    console.log(ticketInfprmation);
+    //  const [selecCard,setSelectcard] = useState([])
+    // console.log(setSelectcardd);
     return (
         <div className="max-w-450 mx-auto">
 
@@ -85,9 +86,14 @@ export default function Tickets({ticketPromise}) {
                 <div className="p-12">
                         <div>
                             <h1 className="font-bold">Task Status</h1>
-                            <p className="w-auto">Select a ticket to add to Task Status</p>
+                            {/* <p className="w-auto">Select a ticket to add to Task Status</p> */}
+                            <p className="text-gray-700 mb-4 text-1xl font-bold mt-5">Payment Failed - Card Declined</p>
+
+          <button className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 rounded">
+            Complete
+          </button>
                         </div>
-                        <div>
+                        <div className="mt-10">
                             <h1 className="font-bold">Resolved Task</h1>
                             <p>No resolved tasks yet.</p>
                         </div>

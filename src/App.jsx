@@ -5,7 +5,7 @@ import Banner from './banner'
 import Tickets from './customer-tickets'
 import Footer from './footer'
 import Footerbar from './footerbar'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 const fetchTickets = async () => {
   const res = await fetch("tickets.json")
@@ -13,6 +13,9 @@ const fetchTickets = async () => {
 }
 
 function App() {
+
+ 
+
   const ticketPromise = fetchTickets()
   return (
     <>
