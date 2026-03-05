@@ -1,3 +1,8 @@
+import xIcon from "./assets/fi_5969020.png"
+import linkIcon from "./assets/fi_145807.png"
+import fIcon from "./assets/fi_5968764.png"
+import mailIcon from "./assets/fi_6244710.png"
+
 
 
 export default function Footer () {
@@ -12,24 +17,34 @@ export default function Footer () {
     </p>
   </aside>
   <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
-  </nav>
-  <nav>
     <h6 className="footer-title">Company</h6>
     <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <a className="link link-hover">Our Mission</a>
+    <a className="link link-hover">Contact Saled</a>
+    
   </nav>
   <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <h6 className="footer-title">Services</h6>
+    <a className="link link-hover">Products & Services</a>
+    <a className="link link-hover">Customer Stories</a>
+    <a className="link link-hover">Download Apps</a>
+    
+  </nav>
+  
+  <nav>
+    <h6 className="footer-title">Information</h6>
+    <a className="link link-hover">Privacy Policy</a>
+    <a className="link link-hover">Terms & Conditions</a>
+    <a className="link link-hover">Join Us</a>
+  </nav>
+
+  <nav>
+    <h6 className="footer-title">Social Links</h6>
+    <a className="link link-hover flex gap-2"><img src={xIcon} alt="" />@CS — Ticket System</a>
+    <a className="link link-hover flex gap-2"><img src={linkIcon} alt="" />@CS — Ticket System</a>
+    <a className="link link-hover flex gap-2"><img src={fIcon} alt="" />@CS — Ticket System</a>
+    <a className="link link-hover flex gap-2"><img src={mailIcon} alt="" />support@cst.com</a>
+
   </nav>
 </footer>
 

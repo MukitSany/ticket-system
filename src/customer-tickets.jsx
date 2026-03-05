@@ -14,7 +14,7 @@ export default function Tickets({ticketPromise}) {
 
             <div>
                 <h1 className="font-extrabold text-3xl">Customer Tickets</h1>
-                <div className="">
+                <div className="flex justify-between">
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         {
@@ -82,9 +82,16 @@ export default function Tickets({ticketPromise}) {
             }
                     </div>
 
-                {/* <div className="p-12">
-                        <h1 className="font-extrabold">sdjkbvsdhbv</h1>
-                    </div> */}
+                <div className="p-12">
+                        <div>
+                            <h1 className="font-bold">Task Status</h1>
+                            <p className="w-auto">Select a ticket to add to Task Status</p>
+                        </div>
+                        <div>
+                            <h1 className="font-bold">Resolved Task</h1>
+                            <p>No resolved tasks yet.</p>
+                        </div>
+                    </div>
 
 
 
